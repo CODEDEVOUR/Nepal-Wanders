@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.walpaper{
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.765),rgba(0, 0, 0, 0.422)),url('/images/4-1.jpg');
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: wheat;
+    font-weight: bold;
+    font-size: 17px;
+}
+.navbar-scrolled{
+    background: black;
+}
+.tour img{
+    height: 240px;
+    object-fit: cover;
+}
+.tour h4{
+    bottom: 20px;
+    left: 40px;
+}
+.quote{
+    background: linear-gradient(rgba(0, 0, 0, 0.543),rgba(0, 0, 0, 0.264)),url('/images/youtube.jpg');
+    height: 80vh;
+    object-fit: fill;
+}
+.btn-s {
+    width: 80px!important;
+    height: 80px!important;
+}
+.icon i{
+    padding: 0 5px;
+}
